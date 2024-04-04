@@ -1,0 +1,92 @@
+
+
+h1, h2 {
+    color: #446688;
+    font-weight: normal;
+    margin-top: 0;
+}
+h1 {
+    font-size: 2.5em;
+    
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.highlight {
+    color: black;
+    font-weight: bold;
+}
+button {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0.5px 1px 1px;
+}
+button:hover {
+    background-color: #557799;
+}
+.options{
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 0.5px 2px 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.options.selected {
+    border: 2px solid pink;
+    .sr{
+        background-color: pink;
+    }
+}
+.sr{
+    color: white;
+    margin: 5px;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 16px;
+    text-align: center;
+}
+.opText{
+    font-size: 12px;
+    margin: 0;
+    margin-right: 4px;
+    align-content: center;
+}
+.backbtn{
+display: flex;
+font-size: 12px;
+margin-bottom: 20px;
+color: rgb(150, 149, 149);
+width: fit-content;
+
+}
+.backarrow{
+
+rotate: 180deg;
+height: fit-content;
+align-content: center;
+}
+.backtxt{
+
+height: fit-content;
+align-content: center;
+margin-top: 2px;
+}
+.backbtn:hover{
+    cursor: pointer;
+}
+.testcont{
+    
+    margin-bottom: 20px;
+}
+.testcont p{
+    margin-bottom: 20px;
+}

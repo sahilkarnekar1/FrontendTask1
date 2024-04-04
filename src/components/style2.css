@@ -1,0 +1,45 @@
+p{
+            
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+button {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #557799;
+}
+.txtP{
+    color: pink;
+}
+font{
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.imsmall{
+    
+    width: 15px;
+    height: 15px;
+}
+.smalls{
+    font-size: medium;
+}
+.userTT{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+}
+.userim{
+width: 100%;
+
+}

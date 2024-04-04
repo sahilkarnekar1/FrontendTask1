@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+
+import AmieComp from './components/AmieComp';
+import FirstContentComp from './components/FirstContentComp';
+import Info from './components/Info';
+import FeedbackForm from './components/FeedbackForm';
+import Thanks from './components/Thanks';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    <div className="main">
+      
+      <AmieComp/>
+      <Routes>
+        <Route path='/' element={<FirstContentComp/>}/>
+        <Route path='/info' element={<Info/>}/>
+        <Route path='/form' element={<FeedbackForm/>}/>
+        <Route path='/thanks' element={<Thanks/>}/>
+       
+      </Routes>
+      
+    
     </div>
+    </Router>
   );
 }
 
